@@ -1,0 +1,19 @@
+{
+  "name": "pineappleanimation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm-run-all": "^4.1.2",
+    "roughjs": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "browserify": "browserify dist/pineapple.js > dist/bundle.js",
+    "start": "node index.js",
+    "dev": "npm-run-all browserify start"
+  },
+  "author": "",
+  "license": "ISC"
+}
